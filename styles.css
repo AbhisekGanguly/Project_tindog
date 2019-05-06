@@ -169,7 +169,7 @@ h2, h3{
 .darken {
   color:#fff !important;
   font-weight: 500;
-  font-size:1rem;
+  font-size:1.2rem;
 }
 
 /* CSS hack to make pricing tables all of equal height */
