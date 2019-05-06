@@ -183,3 +183,29 @@ h2, h3{
     width: 25%
   }
 }
+
+@media (max-width: 600px){
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+  }
+  .container-fluid{
+    text-align: center;
+    font-size: 70%;
+  }
+
+  .testimonial-text{
+    font-size: 150%;
+  }
+  .press-images{
+    width: 25%
+  }
+  .navbar-brand{
+    font-size: 1.7rem;
+  }
+  .brand-logo{
+    height: 30px;
+    width: 30px;
+  }
+}
+
