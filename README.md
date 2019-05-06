@@ -1,3 +1,6 @@
 # Project_tindog
-This project is created by <a href="https://abhisekganguly.github.io/My_website>Abhisek Ganguly.</a> 
+This project is created by Abhisek Ganguly. 
 © 2019 All Right Reserved.
+
+visit official site of Abhisek Ganguly.
+https://abhisekganguly.github.io/My_website/
