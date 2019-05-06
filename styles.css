@@ -59,6 +59,8 @@ h2, h3{
   right: 25%;
 }
 
+
+
 /* Features Section */
 
 #features{
@@ -67,7 +69,7 @@ h2, h3{
 }
 
 .features-row{
-  padding: 6% 15%;
+  padding: 10% 15%;
   margin: 0 10px;
   text-align: center;
 }
@@ -89,7 +91,7 @@ h2, h3{
 
 .def{
   color: #8f8f8f;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .gap{
@@ -107,7 +109,7 @@ h2, h3{
 .testimonial-text{
   font-family: "Montserrat";
   font-weight:900;
-  font-size: 300%;
+  font-size: 200%;
 }
 
 .testimonial-image{
@@ -162,6 +164,17 @@ h2, h3{
 .social{
   padding: 10px;
   font-size: 20px;
+}
+
+.darken {
+  color:#fff !important;
+  font-weight: 500;
+  font-size:1rem;
+}
+
+/* CSS hack to make pricing tables all of equal height */
+.hide {
+  visibility:hidden
 }
 
 
