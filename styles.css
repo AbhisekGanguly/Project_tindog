@@ -170,12 +170,41 @@ h2, h3{
   color:#fff !important;
   font-weight: 500;
   font-size:1rem;
+  border-bottom:3px solid transparent;
+  transition:200ms;
+}
+
+.darken:hover{
+  border-bottom:3px solid #fff;
+  text-shadow: 1px 0 white;
 }
 
 /* CSS hack to make pricing tables all of equal height */
 .hide {
   visibility:hidden
 }
+
+.navbar-toggler-icon {
+  visibility:none;
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+}
+
+.fa .fa-bars {
+  color:#fff;
+  font-weight: 500;
+}
+
+.custom {
+  font-size:1rem;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
 
 
 /* Responsive Design */
