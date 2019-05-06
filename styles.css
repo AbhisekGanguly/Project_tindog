@@ -184,19 +184,18 @@ h2, h3{
   visibility:hidden
 }
 
-.navbar-toggler-icon {
-  visibility:none;
-}
-
+/* hidden the original navbar toggler */
 .navbar-toggler-icon {
   background-image: none !important;
 }
 
+/* FontAwesome Icon used in place of navbar-toggler */
 .fa .fa-bars {
   color:#fff;
   font-weight: 500;
 }
 
+/* custom button class for pricing table buttons */
 .custom {
   font-size:1rem;
   width:50%;
