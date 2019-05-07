@@ -177,6 +177,7 @@ h2, h3{
 .darken:hover{
   border-bottom:3px solid #fff;
   text-shadow: 1px 0 white;
+  font-size:1.2rem;
 }
 
 /* CSS hack to make pricing tables all of equal height */
