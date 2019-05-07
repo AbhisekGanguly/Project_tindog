@@ -169,6 +169,14 @@ h2, h3{
 .darken {
   color:#fff !important;
   font-weight: 500;
+  font-size:1rem;
+  border-bottom:3px solid transparent;
+  transition:200ms;
+}
+
+.darken:hover{
+  border-bottom:3px solid #fff;
+  text-shadow: 1px 0 white;
   font-size:1.2rem;
 }
 
@@ -176,6 +184,27 @@ h2, h3{
 .hide {
   visibility:hidden
 }
+
+/* hidden the original navbar toggler */
+.navbar-toggler-icon {
+  background-image: none !important;
+}
+
+/* FontAwesome Icon used in place of navbar-toggler */
+.fa .fa-bars {
+  color:#fff;
+  font-weight: 500;
+}
+
+/* custom button class for pricing table buttons */
+.custom {
+  font-size:1rem;
+  width:50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
 
 
 /* Responsive Design */
